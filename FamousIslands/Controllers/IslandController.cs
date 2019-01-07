@@ -102,6 +102,8 @@ namespace FamousIslands.Controllers
             if (!ModelState.IsValid)
                 return BadRequest();
 
+
+
             var island = Mapper.Map<Island>(islandDto);
 
             _famousIslandsRepository.AddIsland(countryId, island);
