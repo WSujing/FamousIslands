@@ -103,7 +103,6 @@ namespace FamousIslands.Controllers
                 return BadRequest();
 
 
-
             var island = Mapper.Map<Island>(islandDto);
 
             _famousIslandsRepository.AddIsland(countryId, island);
