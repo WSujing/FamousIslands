@@ -13,6 +13,7 @@ namespace FamousIslands.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class CountryController : ControllerBase
+
     {
         private IFamousIslandsRepository _famousIslandsRepository;
         public CountryController(IFamousIslandsRepository famousIslandsRepository)
