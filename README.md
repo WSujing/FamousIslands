@@ -1,2 +1,2 @@
 # FamousIslands
-FamousIslands is a API prosject made in ASP.NET Core Mvc. 
+FamousIslands is an Web API prosject using ASP.NET Core Mvc. 
